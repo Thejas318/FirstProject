@@ -11,6 +11,8 @@ public class string {
         String x = greeting.substring(0, 4);       //Using a substring method
         System.out.println(x);
         System.out.println(greeting.charAt(4));
+        System.out.println(greeting.substring(3,6));
+
     }
 
 
