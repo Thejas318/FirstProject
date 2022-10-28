@@ -12,7 +12,7 @@ class Emp{
     Emp(){           // Constructor method.
         empid = 1;   // constructor method can be used to intialize the non-static variables.
         salary = 800; // constructor method will be called only once per object.
-        System.out.println("called once per obect");
+        System.out.println("called once per object");
     }
     public void show(){
         System.out.println( empid  + ":" + salary + ":" + ceo);
@@ -24,6 +24,11 @@ public class StaticKeywordUsage {
     Emp thejas = new Emp();
     Emp sriram = new Emp();
 
+    thejas.empid = 4016;   // using objects to change the values of intialized non static variables.
+    thejas.salary = 1200;
+
+    sriram.empid = 4019;
+    sriram.salary = 1500;   // using objects to change the values of intialized non static variables.
 
 
     thejas.show();
