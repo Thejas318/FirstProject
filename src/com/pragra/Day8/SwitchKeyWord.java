@@ -64,7 +64,8 @@ public class SwitchKeyWord {
         System.out.println("Enter the month number: ");
         int MonthNo = sc.nextInt();
 
-        switch (MonthNo){
+
+           switch (MonthNo){
 
             case 1:
             case 3:
