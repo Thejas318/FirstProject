@@ -12,6 +12,8 @@ public class string {
         System.out.println(x);
         System.out.println(greeting.charAt(4));
         System.out.println(greeting.substring(3,6));
+       
+
 
     }
 

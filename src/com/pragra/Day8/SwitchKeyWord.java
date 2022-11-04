@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class SwitchKeyWord {
 
     public static void main(String[] args) {       //Method 1 without merging the cases.
-
-    method2();                                   // use any method available in the class.
+        method1();
+        //method2();                                   // use any method available in the class.
     }
 
     public static void method1() {
