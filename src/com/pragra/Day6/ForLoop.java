@@ -1,5 +1,7 @@
 package com.pragra.Day6;
 
+import java.sql.SQLOutput;
+
 public class ForLoop {
     public static void main(String[] args) {
         Loop(0);
@@ -10,6 +12,7 @@ public class ForLoop {
         for (i = 1; i <= 10; i++) {
             if (i % 2 == 0) {
                 System.out.println(i);
+
             }
         }
     }
