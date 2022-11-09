@@ -37,6 +37,9 @@ public class BreakContinueKeyWord {
             System.out.println("branch creation successfull");
             System.out.println("cretaing this sout to learn about git status commandq");
 
+            System.out.println("I'm in master branch now");
+            System.out.println("I'm trying to merge the testing branch with master branch");
+
         }
 
 

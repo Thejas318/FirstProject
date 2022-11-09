@@ -3,6 +3,7 @@ package Practice;
 public class string {
     public static void main(String[] args) {
         substr();// Calling a method inside psvm
+
     }
     //Substring Usage method
 
@@ -12,6 +13,9 @@ public class string {
         System.out.println(x);
         System.out.println(greeting.charAt(4));
         System.out.println(greeting.substring(3,6));
+        
+
+
 
     }
 
