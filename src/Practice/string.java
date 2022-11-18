@@ -15,10 +15,7 @@ public class string {
         System.out.println(x);
         System.out.println(greeting.charAt(4));
         System.out.println(greeting.substring(3,6));
-
-
-
-
+        System.out.println("The index of the last character passed is: " + greeting.lastIndexOf('d'));  //usage of the lastindexof method
 
 
     }
