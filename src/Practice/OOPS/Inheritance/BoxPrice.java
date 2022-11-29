@@ -2,6 +2,7 @@ package Practice.OOPS.Inheritance;
 
 public class BoxPrice extends BoxWeight{
 
+
     double cost;
 
     public BoxPrice() {
@@ -27,4 +28,7 @@ public class BoxPrice extends BoxWeight{
         this.cost = cost;
 
     }
+   public void operation(){
+       System.out.println("hello, we are in boxprice class");
+   }
 }

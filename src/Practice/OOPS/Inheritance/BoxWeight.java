@@ -12,8 +12,10 @@ public class BoxWeight extends Box {        //inheriting the box class using ext
         this.weight = val;
     }
 
+
+
     BoxWeight(double side, double weight){
-        super(side);                        // this super keyword will call the parent constructor ( in box class ) which takes one argument
+        super(side);                                                       // this super keyword will call the parent constructor ( in box class ) which takes one argument
         this.weight = weight;
     }
     public BoxWeight(double l, double w, double h, double weight) {     //Constructor which takes the argument for both box class and boxweight class.
@@ -23,7 +25,7 @@ public class BoxWeight extends Box {        //inheriting the box class using ext
 
     public static void main(String[] args) {
 
-        Box box1 = new Box();                 //this is the object from parent class and it does not have access to properties of child class.
+        Box box1 = new Box();                                               //this is the object from parent class and it does not have access to properties of child class.
 
         BoxWeight box2 = new BoxWeight(4.0, 5.0, 6.0, 7.0);   //this is the object from child class and it does have access to properties of parent class
 
@@ -33,9 +35,9 @@ public class BoxWeight extends Box {        //inheriting the box class using ext
         System.out.println(box2.weight);
 
         //Funny observation.
-        Box box3 = new BoxWeight();    // Here the reference variable is of the the type box and actual object is of the type boxweight.
-                                       // It is actually the type of the reference variable that determines what memebers can be accessed.
-        //box3.weight;              // Here the box3 cannot access the propeties of boxweight class.
+        Box box3 = new BoxWeight();                                        // Here the reference variable is of the the type box and actual object is of the type boxweight.
+                                                                  // It is actually the type of the reference variable that determines what memebers can be accessed.
+        //box3.weight;                                               // Here the box3 cannot access the propeties of boxweight class.
 
        //observation 2
 
