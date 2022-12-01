@@ -1,4 +1,4 @@
-package Practice.DateNov24;
+package Practice;
 
 public class DateNov24 {
     public static void main(String[] args) {
