@@ -1,6 +1,7 @@
 package Practice;
 
 
+import java.util.Scanner;
 
 public class string {
     public static void main(String[] args) {
@@ -18,6 +19,8 @@ public class string {
         System.out.println("The index of the last character passed is: " + greeting.lastIndexOf('d'));  //usage of the lastindexof method
        greeting.concat("of roses");  //applying string method doesnot change the original string object. coz strings are immutable.
         System.out.println(greeting);
+
+
 
     }
 
