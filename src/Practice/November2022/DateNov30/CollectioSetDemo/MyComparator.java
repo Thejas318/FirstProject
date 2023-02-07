@@ -1,7 +1,7 @@
 package Practice.November2022.DateNov30.CollectioSetDemo;
 
 import java.util.Comparator;
-//creating a customized sorting order by implementing omparator interface
+//creating a customized sorting order by implementing comparator interface
 public class MyComparator implements Comparator {
 
 

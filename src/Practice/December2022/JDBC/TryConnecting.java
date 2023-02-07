@@ -10,7 +10,7 @@ public class TryConnecting {
 
         Connection con = null;
         Statement stmt = null;
-        String qry = "insert into rbc.persons values(8564, 'srinivasan', 'sriram', '4875, edouard montpetit', 'Montreal')";
+        String qry = "insert into rbc.employee values( 'Saideep', 850,  70000)";
 
 
         try {
@@ -18,6 +18,7 @@ public class TryConnecting {
             System.out.println("Driver registered and loaded");
 
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306?user=root&password=Graduate2022");
+
             System.out.println("Connection established");
 
             stmt = con.createStatement();
